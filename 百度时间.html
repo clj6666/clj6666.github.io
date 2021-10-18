@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度时间</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div class="search-container p-top-5"><img src="./image/logo.jpg" alt="" class="baidu-icon"> <input type="text"
+                value="时间" class="search-input"></div>
+        <ul class="category-container p-top-5">
+            <li class="active">全部</li>
+            <li>视屏</li>
+            <li>笔记</li>
+            <li>直播</li>
+            <li>图片</li>
+            <li>贴吧</li>
+            <li>小视频</li>
+        </ul>
+        <div class="card-container m-top-10">
+            <div class="time-info">
+                <div class="time">
+                    <span class="oversize-time" id="hour">09</span>
+                    <span class="oversize-time">:</span>
+                    <span class="oversize-time" id="minu">24</span>
+                    <span class="small-time" id="stime"></span>
+                </div>
+                <div class="weekend"><span class="weekend-item" id="weekDay"></span>
+                    <span class="weekend-item" id="ymd"></span></div>
+                <div class="c-color-gray p-top-5">
+                    中国首都北京时间_时间校准
+                </div>
+            </div>
+        </div>
+        <div class="card-container m-top-10">
+            <div class="everyone-search">
+                <p>大家还在搜</p>
+                <p class="c-color-gray">...</p>
+            </div>
+            <div class="everyone-box">
+                <div class="box-gray"><span>设置时间</span></div>
+                <div class="box-gray"><span>时钟免费下载</span></div>
+                <div class="box-gray"><span>在线时钟</span></div>
+                <div class="box-gray"><span>显示时间和日期的桌...</span></div>
+                <div class="box-gray"><span>实时时钟</span></div>
+                <div class="box-gray"><span>手机桌面时间显示设置</span></div>
+                <div class="box-gray"><span>秒表在线计时器</span></div>
+                <div class="box-gray"><span>时间与人生感悟</span></div>
+            </div>
+        </div>
+        <div class="card-container m-top-10">
+            <p class="time-title"><span class="red">时间</span>-百度百科</p>
+            <div class="baidu-info">
+                <div class="baidu-img-box">
+                    <img src="./image/miaodongbaike.jpg" alt="" class="baidu-img">
+                </div>
+                <p><span class="red">时间</span>（Time）是物质的运动、变化的持续性、顺序性的表现，包含时刻和时段两个概念。<span
+                        class="red">时间</span>是人类用以描述物质运动过程或事件发生过程的一个参数，确定
+                </p>
+            </div>
+        </div>
+        <div class="card-container m-top-10">
+            <div class="controller-container">
+                <!-- <p class="controller-input">时: <input type="text" id="h" value="09"></p>
+                <p class="controller-input">分: <input type="text" id="m" value="52"></p>
+                <button onclick="queding()" class="btncolor cljnb">确定</button> -->
+                <!-- <button onclick="nextpeople()" class="btncolor cljn">下一小时</button> -->
+                <div class="shijian">
+                    时:<input type="text" id="shi" value="">
+                    分:<input type="text" id="fen" value="">
+                </div>
+                <button onclick="nexttime()" class="btncolor cljb">下一个时间段</button>
+                <!-- <input type="button" onclick="nextpeople()" class="btncolor cljn" value="下一个人"> -->
+                <!-- <div class="controller-btn">
+                    <div class="btn-next btn-blue">下一个人</div>
+                    <div class="btn-next btn-red">下一个时间段</div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
