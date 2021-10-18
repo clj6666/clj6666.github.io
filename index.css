@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px "\5B8B\4F53", sans-serif;
+    background: #f6f6f6;
+    font-family: "Microsoft YaHei";
+}
+.container {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+.p-top-5 {
+    padding: 5px 0 0 0;
+}
+.baidu-icon {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    left: 20px;
+}
+.search-input {
+    width: 99%;
+    height: 44px;
+    border-radius: 12px;
+    border: 2px solid #676767;
+    text-indent: 40px;
+    font-size: 20px;
+    outline: none;
+    color: #333;
+}
+.category-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category-container li {
+    color: #666;
+}
+.category-container li {
+    font-size: 15px;
+}
+.active {
+    color: #000 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #3388FF;
+    font-family: "微软雅黑 Light" !important;
+}
+li {
+    list-style: none;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+.m-top-10 {
+    margin: 10px 0 0 0;
+}
+.time-info {
+    padding: 15px 10px;
+}
+.time {
+    padding-bottom: 5px;
+}
+.weekend {
+    color: #1F1F1F;
+}
+.c-color-gray {
+    color: #858585;
+}
+
+.p-top-5 {
+    padding: 5px 0 0 0;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+.card-container {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+.m-top-10 {
+    margin: 10px 0 0 0;
+}
+.everyone-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+.c-color-gray {
+    color: #858585;
+}
+.everyone-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box-gray {
+    width: 40%;
+    height: 44px;
+    line-height: 44px;
+    background: #f6f6f6;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+.card-container {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+.m-top-10 {
+    margin: 10px 0 0 0;
+}
+.time-title {
+    padding: 10px 8px;
+    font-size: 20px;
+}
+.red {
+    color: #f11;
+}
+.baidu-info {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5px 10px 0;
+}
+.baidu-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+    margin: 0 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+.m-top-10 {
+    margin: 10px 0 0 0;
+}
+.controller-container {
+    padding: 10px 10px;
+    display: flex;
+}
+.controller-input {
+    margin-bottom: 10px;
+}
+.controller-input input {
+    width: 230px;
+    height: 28px;
+}
+.controller-input {
+    margin-bottom: 10px;
+}
+.controller-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn-blue {
+    background: #54a0ff;
+}
+.btn-next {
+    width: 45%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+}
+.btn-red {
+    background: #ee5253;
+}
+.oversize-time {
+    color: #000;
+    font-size: 36px;
+}
+.small-time {
+    color: #1F1F1F;
+    font-size: 26px;
+}
+.btncolor{
+    width: auto;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+.cljnb{
+    position: absolute;
+    right: 40px;
+    bottom: -10px;
+    background-color: yellow;
+}
+.cljn{
+    background-color: blueviolet;
+    margin: 0 20px 0 30px;
+}
+.cljb{
+    float: right;
+    background-color: #ee5253;
+    margin-top: 20px;
+}
+
+.shijian{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+@media screen and (width:360px){
+    .cljnb{
+        bottom: -20%;
+        right: 4%;
+    }
+    .btncolor{
+        padding: 0 10px 0 10px;
+    }
+}
